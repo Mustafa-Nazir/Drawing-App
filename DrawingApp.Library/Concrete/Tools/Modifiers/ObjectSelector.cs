@@ -21,7 +21,7 @@ namespace DrawingApp.Library.Concrete.Tools.Modifiers
 
         public ObjectSelector()
         {
-            this.Image = Image.FromFile(@"..\images\touch.png");
+            this.Image = Image.FromFile(RootPath+@"\images\touch.png");
         }
 
         public void SetActive()

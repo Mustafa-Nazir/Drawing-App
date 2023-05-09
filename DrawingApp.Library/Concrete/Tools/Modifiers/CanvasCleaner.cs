@@ -21,7 +21,7 @@ namespace DrawingApp.Library.Concrete.Tools.Modifiers
 
         public CanvasCleaner()
         {
-            this.Image = Image.FromFile(@"..\images\newFile.png");
+            this.Image = Image.FromFile(RootPath+@"\images\newFile.png");
         }
         protected override void toolOnClik(object sender, EventArgs e)
         {

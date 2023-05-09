@@ -25,7 +25,7 @@ namespace DrawingApp.Library.Concrete.Tools.FileTools
 
         public CanvasLoadingTool()
         {
-            this.Image = Image.FromFile(@"..\images\folderOpen.png");
+            this.Image = Image.FromFile(RootPath+@"\images\folderOpen.png");
         }
 
         protected override void toolOnClick(object sender, EventArgs e)

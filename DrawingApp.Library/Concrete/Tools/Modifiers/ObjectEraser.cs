@@ -21,7 +21,7 @@ namespace DrawingApp.Library.Concrete.Tools.Modifiers
 
         public ObjectEraser()
         {
-            this.Image = Image.FromFile(@"..\images\delete.png");
+            this.Image = Image.FromFile(RootPath + @"\images\delete.png");
         }
 
         protected override void toolOnClik(object sender, EventArgs e)

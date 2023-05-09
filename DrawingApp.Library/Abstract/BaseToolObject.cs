@@ -9,7 +9,7 @@ namespace DrawingApp.Library.Abstract
 {
     public abstract class BaseToolObject:BaseObject
     {
-
+        protected string RootPath = @"..\..\..\..\DrawingApp.Library";
         public bool IsSelect = false;
         private Pen borderPenEnable;
         private Pen borderPenDisable;

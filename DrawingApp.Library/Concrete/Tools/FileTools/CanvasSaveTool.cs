@@ -23,7 +23,7 @@ namespace DrawingApp.Library.Concrete.Tools.FileTools
 
         public CanvasSaveTool()
         {
-            this.Image = Image.FromFile(@"..\images\save.png");
+            this.Image = Image.FromFile(RootPath+@"\images\save.png");
         }
 
         protected override void toolOnClick(object sender, EventArgs e)
